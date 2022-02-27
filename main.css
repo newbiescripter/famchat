@@ -1,0 +1,43 @@
+.login-form {
+    text-align: center;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e8eaed;
+    border-radius: 10px;
+    padding-top: 2%;;
+    padding-bottom: 5%;
+}
+form {
+    text-align: center;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e8eaed;
+    border-radius: 10px;
+    padding-bottom: 2%;
+}
+
+header {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: #e8eaed;
+    padding-bottom: 1%;
+}
+
+body {
+    background-color: #35363a;
+}
+
+.more-info {
+    text-align: center;
+    display: block;
+}
+
+#more-info-button {
+    border-radius: 500px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

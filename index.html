@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Family Chat </title>
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript">
+            const GUN = require('gun/gun');
+        </script>
+    </head>
+    <header>
+        <h1 id="logo"> Family Chat </h1>
+        <h3> Your place to chat with your family! </h3>
+    </header>
+    <body>
+        <form action="" method="get" class="login-form">
+            <div class="login-form-name">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" placeholder="Name Here" required>
+            </div>
+            <div class="login-form-name">
+                <label for="family-name">Enter your familys name: </label>
+                <input type="text" name="family-name" id="family-name" placeholder="Family Name Here" required>
+              </div>
+            <div class="login-form-password">
+              <label for="password">Enter your familys password: </label>
+              <input type="password" name="password" id="password" placeholder="Family Password Here" required>
+            </div>
+            <div class="login-form-submit">
+              <input type="submit" value="Login To Family!">
+            </div>
+          </form>
+          <form action="" method="get" class="create-form">
+            <div class="login-form-name">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" placeholder="Name Here" required>
+            </div>
+            <div class="login-form-name">
+                <label for="family-name">Enter your familys name: </label>
+                <input type="text" name="family-name" id="family-name" placeholder="Family Name Here" required>
+              </div>
+            <div class="login-form-password">
+              <label for="password">Enter your familys password: </label>
+              <input type="password" name="password" id="password" placeholder="Family Password Here" required>
+            </div>
+            <div class="login-form-submit">
+              <input type="submit" value="Create Family!">
+            </div>
+          </form>
+       </body>
+    <footer>
+        <div class="more-info">
+              <button type="button" id="more-info-button" onclick="toConfirmation()"> More Info </button>
+        </div>
+      </footer>
+      <script>
+          function toConfirmation() {
+              location.replace('/otherpages/confirmationpage.html')
+          }
+      </script>
+</html>
